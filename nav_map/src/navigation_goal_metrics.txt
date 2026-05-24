@@ -1,0 +1,125 @@
+Dijkstra:
+Cycle 1:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 31.60 seconds, Path length = 6.95 meters, Replans = 31
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 22.40 seconds, Path length = 5.47 meters, Replans = 21
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 16.14 seconds, Path length = 3.10 meters, Replans = 16
+Cycle 2:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 41.98 seconds, Path length = 7.14 meters, Replans = 40
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 108.57 seconds, Path length = 7.40 meters, Replans = 99
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 20.94 seconds, Path length = 3.27 meters, Replans = 18
+Cycle 3:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 33.84 seconds, Path length = 7.13 meters, Replans = 33
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 19.26 seconds, Path length = 5.58 meters, Replans = 18
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 14.99 seconds, Path length = 3.00 meters, Replans = 14
+Cycle 4:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 33.84 seconds, Path length = 7.14 meters, Replans = 34
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 76.79 seconds, Path length = 6.32 meters, Replans = 74
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 15.54 seconds, Path length = 3.07 meters, Replans = 15
+Cycle 5:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 40.09 seconds, Path length = 7.19 meters, Replans = 39
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 30.62 seconds, Path length = 5.62 meters, Replans = 30
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=108, nanosec=80000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-1.7527587251777996, y=1.001851560280043, z=0.01), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.9895506515247774, w=0.14418567219695783))), navigation_time=builtin_interfaces.msg.Duration(sec=36, nanosec=778000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=17, distance_remaining=0.0), Time taken = 41.67 seconds, Path length = 3.60 meters, Replans = 19
+Cycle 6:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 32.00 seconds, Path length = 7.24 meters, Replans = 31
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 28.38 seconds, Path length = 5.54 meters, Replans = 28
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 16.79 seconds, Path length = 3.23 meters, Replans = 16
+Cycle 7:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 34.41 seconds, Path length = 7.27 meters, Replans = 33
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 20.37 seconds, Path length = 5.54 meters, Replans = 19
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 15.99 seconds, Path length = 3.13 meters, Replans = 16
+Cycle 8:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 30.50 seconds, Path length = 6.88 meters, Replans = 30
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 24.49 seconds, Path length = 5.63 meters, Replans = 23
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 15.70 seconds, Path length = 3.10 meters, Replans = 15
+Cycle 9:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 30.84 seconds, Path length = 6.89 meters, Replans = 30
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 21.20 seconds, Path length = 5.53 meters, Replans = 21
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 19.10 seconds, Path length = 3.08 meters, Replans = 18
+Cycle 10:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 33.87 seconds, Path length = 7.29 meters, Replans = 33
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 26.70 seconds, Path length = 5.80 meters, Replans = 26
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 15.95 seconds, Path length = 3.16 meters, Replans = 16
+
+A*:
+Cycle 1:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 24.99 seconds, Path length = 6.99 meters, Replans = 24
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 18.90 seconds, Path length = 5.47 meters, Replans = 18
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.04 seconds, Path length = 3.21 meters, Replans = 12
+Cycle 2:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 25.59 seconds, Path length = 7.00 meters, Replans = 25
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 18.70 seconds, Path length = 5.58 meters, Replans = 18
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 14.11 seconds, Path length = 3.17 meters, Replans = 13
+Cycle 3:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 24.10 seconds, Path length = 6.97 meters, Replans = 23
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 18.88 seconds, Path length = 5.55 meters, Replans = 18
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.46 seconds, Path length = 3.15 meters, Replans = 13
+Cycle 4:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 24.80 seconds, Path length = 7.05 meters, Replans = 24
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 20.08 seconds, Path length = 5.42 meters, Replans = 19
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.30 seconds, Path length = 3.17 meters, Replans = 13
+Cycle 5:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 24.41 seconds, Path length = 7.12 meters, Replans = 24
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 18.84 seconds, Path length = 5.54 meters, Replans = 18
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 12.63 seconds, Path length = 3.07 meters, Replans = 12
+Cycle 6:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 24.58 seconds, Path length = 7.12 meters, Replans = 23
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 18.64 seconds, Path length = 5.58 meters, Replans = 18
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.46 seconds, Path length = 3.23 meters, Replans = 13
+Cycle 7:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 25.30 seconds, Path length = 7.02 meters, Replans = 24
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 18.82 seconds, Path length = 5.64 meters, Replans = 18
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.45 seconds, Path length = 3.04 meters, Replans = 13
+Cycle 8:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 25.31 seconds, Path length = 7.08 meters, Replans = 24
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 20.03 seconds, Path length = 5.64 meters, Replans = 19
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.03 seconds, Path length = 3.08 meters, Replans = 12
+Cycle 9:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 24.85 seconds, Path length = 7.06 meters, Replans = 24
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 19.23 seconds, Path length = 5.60 meters, Replans = 19
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.22 seconds, Path length = 3.05 meters, Replans = 12
+Cycle 10:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 25.05 seconds, Path length = 7.00 meters, Replans = 25
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 22.16 seconds, Path length = 5.70 meters, Replans = 21
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 13.29 seconds, Path length = 3.14 meters, Replans = 13
+
+Hybrid:
+Cycle 1:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 20.65 seconds, Path length = 6.52 meters, Replans = 20
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 13.44 seconds, Path length = 5.19 meters, Replans = 13
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=95, nanosec=240000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-2.2771491262937253, y=1.4922664080098937, z=0.01), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.536087101322789, w=0.8441626737752206))), navigation_time=builtin_interfaces.msg.Duration(sec=40, nanosec=925000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=16, distance_remaining=0.0), Time taken = 42.39 seconds, Path length = 3.47 meters, Replans = 9
+Cycle 2:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 21.29 seconds, Path length = 6.49 meters, Replans = 20
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 13.89 seconds, Path length = 5.20 meters, Replans = 13
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=93, nanosec=0), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-2.076312549857242, y=1.1303010344426336, z=0.01), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.9988284274428664, w=0.04839186431633688))), navigation_time=builtin_interfaces.msg.Duration(sec=37, nanosec=580000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=19, distance_remaining=0.0), Time taken = 38.96 seconds, Path length = 3.12 meters, Replans = 6
+Cycle 3:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 20.85 seconds, Path length = 6.57 meters, Replans = 20
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 16.19 seconds, Path length = 5.22 meters, Replans = 16
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=89, nanosec=0), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-1.8274690926586195, y=1.0403582326131533, z=0.01), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.9761046865331395, w=-0.2173008074721343))), navigation_time=builtin_interfaces.msg.Duration(sec=31, nanosec=789000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=15, distance_remaining=0.0), Time taken = 33.04 seconds, Path length = 2.93 meters, Replans = 6
+Cycle 4:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 21.05 seconds, Path length = 6.53 meters, Replans = 21
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 13.41 seconds, Path length = 5.17 meters, Replans = 12
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=90, nanosec=440000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-1.9651972813073593, y=1.0037768747365765, z=0.009999999999999998), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.9930628693308657, w=-0.11758459744519316))), navigation_time=builtin_interfaces.msg.Duration(sec=35, nanosec=397000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=19, distance_remaining=0.0), Time taken = 36.60 seconds, Path length = 2.97 meters, Replans = 7
+Cycle 5:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 20.93 seconds, Path length = 6.47 meters, Replans = 20
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 14.08 seconds, Path length = 5.27 meters, Replans = 13
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=95, nanosec=440000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-1.7477183112287906, y=1.680040223653918, z=0.010000000000000004), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=-0.8548459445696531, w=0.518881885454501))), navigation_time=builtin_interfaces.msg.Duration(sec=40, nanosec=479000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=20, distance_remaining=0.0), Time taken = 42.35 seconds, Path length = 3.15 meters, Replans = 6
+Cycle 6:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 20.52 seconds, Path length = 6.48 meters, Replans = 19
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 13.02 seconds, Path length = 5.18 meters, Replans = 12
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=65, nanosec=660000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-1.7683112901262377, y=1.5519955777139498, z=0.010000000000000005), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=-0.0, z=0.8263424097605468, w=0.5631680227348967))), navigation_time=builtin_interfaces.msg.Duration(sec=12, nanosec=150000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=4, distance_remaining=0.0), Time taken = 12.87 seconds, Path length = 2.89 meters, Replans = 6
+Cycle 7:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 21.05 seconds, Path length = 6.58 meters, Replans = 20
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 14.08 seconds, Path length = 5.12 meters, Replans = 13
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=64, nanosec=860000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-1.7247138443836707, y=1.6176247816900675, z=0.010000000000000002), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.21992070147196352, w=0.9755177523059636))), navigation_time=builtin_interfaces.msg.Duration(sec=9, nanosec=862000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=1, distance_remaining=0.0), Time taken = 10.39 seconds, Path length = 3.02 meters, Replans = 7
+Cycle 8:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 21.62 seconds, Path length = 6.50 meters, Replans = 21
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 13.46 seconds, Path length = 5.15 meters, Replans = 13
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=90, nanosec=620000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-1.8853337240428654, y=1.147514526513683, z=0.01), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=0.0, z=0.8900434969677198, w=0.45587561187836384))), navigation_time=builtin_interfaces.msg.Duration(sec=35, nanosec=883000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=16, distance_remaining=0.0), Time taken = 37.72 seconds, Path length = 3.10 meters, Replans = 8
+Cycle 9:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 21.01 seconds, Path length = 6.59 meters, Replans = 20
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 14.20 seconds, Path length = 5.33 meters, Replans = 13
+Waypoint 3 Goal (-1.51, 1.84): Status = FAILED, Feedback = nav2_msgs.action.NavigateToPose_Feedback(current_pose=geometry_msgs.msg.PoseStamped(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=88, nanosec=640000000), frame_id='map'), pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=-2.285019282099433, y=1.150822847733536, z=0.010000000000000002), orientation=geometry_msgs.msg.Quaternion(x=0.0, y=-0.0, z=0.7477431266186656, w=0.66398811479916))), navigation_time=builtin_interfaces.msg.Duration(sec=33, nanosec=831000000), estimated_time_remaining=builtin_interfaces.msg.Duration(sec=0, nanosec=0), number_of_recoveries=15, distance_remaining=0.0), Time taken = 35.49 seconds, Path length = 3.16 meters, Replans = 8
+Cycle 10:
+Waypoint 1 Goal (-2.0, -4.0): Status = SUCCEEDED, Time taken = 20.06 seconds, Path length = 6.42 meters, Replans = 19
+Waypoint 2 Goal (-4.0, 0.17): Status = SUCCEEDED, Time taken = 14.49 seconds, Path length = 5.11 meters, Replans = 14
+Waypoint 3 Goal (-1.51, 1.84): Status = SUCCEEDED, Time taken = 11.86 seconds, Path length = 3.16 meters, Replans = 10

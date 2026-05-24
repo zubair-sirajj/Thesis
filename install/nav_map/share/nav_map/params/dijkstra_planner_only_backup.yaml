@@ -1,0 +1,11 @@
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 20.0
+    use_sim_time: True
+    planner_plugins: ["GridPlanner"] # Name of your plugin instance
+    
+    GridPlanner:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      use_astar: false       # Set to 'true' for A*, 'false' for Dijkstra
+      tolerance: 0.5         # Tolerance (meters) for finding a valid point near the goal
+      allow_unknown: true    # Whether to allow planning through unknown space

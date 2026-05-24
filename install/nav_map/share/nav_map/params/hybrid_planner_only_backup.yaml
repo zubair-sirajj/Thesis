@@ -1,0 +1,12 @@
+planner_server:
+  ros__parameters:
+    planner_plugins: ["HybridPlanner"]
+    HybridPlanner:
+      plugin: "nav2_smac_planner/SmacPlannerHybrid"
+      allow_unknown: true
+      max_iterations: 1000000
+      minimum_turning_radius: 0.5  # Crucial for diff-drive/car robots
+      bending_penalty: 2.0         # Prefers straight lines
+      reverse_penalty: 2.0         # Discourages reversing
+      chi2_approx: true
+      motion_model_for_search: "DUBIN" # Use "REEDS_SHEPP" if your robot can drive backward

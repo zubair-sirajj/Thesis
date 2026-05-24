@@ -1,0 +1,9 @@
+whyplanner_server:
+  ros__parameters:
+    planner_plugins: ["GridPlanner"]
+    GridPlanner:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      # --- Toggle here ---
+      use_astar: true       # Set to 'false' for Dijkstra
+      tolerance: 0.5
+      allow_unknown: true
