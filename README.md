@@ -16,11 +16,11 @@ The experiments were conducted using **ROS 2**, **Nav2**, **Gazebo**, and a simu
 
 The purpose of this project was to evaluate how different global planners perform under controlled simulation conditions. The comparison focused on:
 
-- navigation success or failure
-- navigation time
-- path length
-- replanning events
-- planner behaviour in different static environments
+- Navigation success or failure
+- Navigation time
+- Path length
+- Replanning events
+- Planner behaviour in different static environments
 
 The study does not develop a new path planning algorithm. Instead, it configures and evaluates existing planners within the Nav2 framework.
 
@@ -32,6 +32,6 @@ The implementation used the following main tools:
 - Nav2 1.4.2
 - Gazebo 9.5.0
 - TurtleBot3 simulation
-- slam_toolbox
+- Slam_toolbox
 - Python
 - Bash
